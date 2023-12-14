@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/media-queries.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="google-site-verification" content="sjP-nk0UuaMlHHwoZEJis96IZ5EVtSVSSuVz1kv7nCA" />
 </head>
 
-<body>
+<body id="body" class="root">
 
     <header>
         <div class="nav container">
@@ -22,6 +21,22 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#pj1" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <div class="coll">
+                        <button id="theme1" class="theme1"><i class='bx bxs-leaf'></i>
+                        </button>
+                        <div id="theme">
+                            <button onclick="col2()" class="theme" style="background-color: #27AE60;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col0()" class="theme" style="background-color: #647bff;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col()" class="theme" style="background-color: #FF4A57;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col3()" class="theme" style="background-color: black; color: white;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                        </div>
+                    </div>
+                </li>
             </ul>
             <!-- Menu Icon -->
             <div class="menu-icon">
@@ -66,7 +81,8 @@
                 </p>
                 <div class="social">
                     <a href="https://github.com/Kshitij1809" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
             </div>
@@ -144,7 +160,7 @@
                 <img src="./images/ss (2).png" alt="">
                 <div class="project-overlay">
                     <h2>Netflix</h2>
-                    <a href="https://kshitij1809.github.io/ott/">
+                    <a href="https://kshitij1809.github.io/Net-flix/">
                         <i class='bx bx-link-alt'></i>
                     </a>
                 </div>
@@ -154,7 +170,7 @@
                 <img src="./images/ss (4).png" alt="">
                 <div class="project-overlay">
                     <h2>Amazon</h2>
-                    <a href="https://kshitij1809.github.io/com/">
+                    <a href="https://kshitij1809.github.io/Amazon/">
                         <i class='bx bx-link-alt'></i>
                     </a>
                 </div>
@@ -164,7 +180,7 @@
     <!-- Contact -->
     <section class="contact container" id="contact">
         <h2 class="heading">Contact</h2>
-        <div class="container1">
+        <div class="container1" style="color: white;">
             <form action="https://formsubmit.co/kshitijdeshmukh18@gmail.com" method="POST">
                 <div class="input-group">
                     <input type="text" placeholder="Your Name" name="name" id="name" onkeyup="validateName()">
@@ -200,7 +216,8 @@
     <section class="footer container" id="footer">
         <div class="social">
             <a href="https://github.com/Kshitij1809" target="_blank"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
             <a href="#"><i class='bx bxl-instagram'></i></a>
         </div>
         <p>&#169; Developed by <span class="color-1"><i>kshitijdeshmukh18</i></span></p>
