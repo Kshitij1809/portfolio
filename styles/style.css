@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
