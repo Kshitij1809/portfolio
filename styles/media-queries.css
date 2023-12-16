@@ -84,7 +84,7 @@
 
     .coll {
         position: fixed;
-        top: 80px;
+        bottom: 80px;
         right: 5px;
     }
 
