@@ -91,7 +91,7 @@
     /* media */
     #theme{
         position: fixed;
-        bottom: 130px;
+        bottom: 110px;
         right: 5px;
         display: none;
         flex-direction: column-reverse;
