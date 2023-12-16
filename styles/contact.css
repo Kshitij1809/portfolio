@@ -48,13 +48,22 @@
 }
 
 .root3 {
+    --main-color: #FFF6E0;
+    --body-color: #272829;
+    --container-color: #1e1e1f;
+    --heading-color: #343738;
+    --box-color: #1e1f20;
+    --bg-color: #707275;
+}
+
+/*.root3 {
     --main-color: #2e2e2e;
     --body-color: #707070;
     --container-color: #929292;
     --heading-color: #222231;
     --box-color: #c7c7c7;
     --bg-color: #ffffff;
-}
+}*/
 
 /* Contact */
 .contact {
