@@ -124,7 +124,7 @@
 
 form button {
     background: var(--main-color);
-    color: #fff;
+    color: var(--bg-color);
     border-radius: 5px;
     padding: 10px 40px;
     border: 0;
