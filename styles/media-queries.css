@@ -88,13 +88,19 @@
         right: 5px;
     }
 
+    /* media */
     #theme{
         position: fixed;
-        top: 130px;
+        bottom: 130px;
+        right: 5px;
         display: none;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 10px;
     }
+
+    .nav1, .navbar1 {
+        display: flex;
+    } 
 
     .navbar li a {
         display: none;
